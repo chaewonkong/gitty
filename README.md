@@ -3,7 +3,7 @@
 > 
 ## Installation
 ```shell
- go install github.com/chaewonkong/gitty@v1.0.0
+ go install github.com/chaewonkong/gitty@latest
 ```
 
 
