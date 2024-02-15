@@ -1,4 +1,4 @@
-# 🛠 Gitty
+# ✨ Gitty 🛠
 > a handy git commit formatter
 > 
 ## Installation
