@@ -1,4 +1,4 @@
-# ✨ Gitty 🛠
+# ✨ Gitty
 > a handy git commit formatter
 
 Helps you to format commit message according to [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
