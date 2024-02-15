@@ -1,4 +1,4 @@
-module gitty
+module github.com/chaewonkong/gitty
 
 go 1.21.3
 

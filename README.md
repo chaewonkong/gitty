@@ -8,3 +8,6 @@
 
 
  ## Run
+```shell
+gitty
+```
