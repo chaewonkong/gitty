@@ -9,15 +9,15 @@ import (
 )
 
 var CommitTypesMap = map[string]string{
-	"feat":     "기능 추가",
-	"fix":      "버그 수정",
-	"refactor": "리팩터링",
-	"docs":     "문서화",
-	"ci":       "CI/CD",
-	"perf":     "성능 개선",
-	"chore":    "잡무",
-	"test":     "테스트",
-	"style":    "css 등 스타일 작업",
+	"feat":     "Adding new features",
+	"fix":      "Fixing the bugs",
+	"refactor": "Refactoring codes",
+	"docs":     "Documentation",
+	"ci":       "CI/CD improvements",
+	"perf":     "Performance Enhancement",
+	"chore":    "Tedious task done",
+	"test":     "Adding/Editing tests",
+	"style":    "Style changes (like css)",
 }
 
 type CommitTypes struct {
