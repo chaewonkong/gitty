@@ -41,8 +41,7 @@ func main() {
 		prompt.OptionShowCompletionAtStart(),
 		prompt.OptionMaxSuggestion(5),
 	)
-	fmt.Println("selected: " + t)
-	fmt.Printf("Enter commit message: \n%s: ", t)
+	fmt.Printf("Enter commit message >>> \n%s: ", t)
 	originalMsg, _ := r.ReadString('\n')
 
 	msg := fmt.Sprintf("%s: %s", t, originalMsg)
@@ -52,4 +51,6 @@ func main() {
 	if err != nil {
 		fmt.Println(fmt.Errorf("error occured: %s", err.Error()))
 	}
+
+	fmt.Println("✨ Committed successfully ✨")
 }
