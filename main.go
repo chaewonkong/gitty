@@ -41,9 +41,9 @@ func main() {
 
 	tmpl := &promptui.SelectTemplates{
 		Label:    "Select Commit Type:",
-		Active:   " {{ .Type | cyan }}: ({{ .Description | red }}) \U0001F336 ",
-		Inactive: " {{ .Type | cyan }}: ({{ .Description | red }})",
-		Selected: "\U0001F336 {{ .Type | red | cyan }}",
+		Active:   "👉 {{ .Type | cyan }}: ({{ .Description | red }})",
+		Inactive: "   {{ .Type | cyan }}: ({{ .Description | red }})",
+		Selected: "👉   {{ .Type | red | cyan }}",
 	}
 
 	prompt := promptui.Select{
@@ -59,7 +59,7 @@ func main() {
 
 	t := commitTypes[i].Type
 
-	fmt.Printf("Enter commit message >>> \n%s: ", t)
+	fmt.Printf("🍉 Enter commit message >>> \n%s: ", t)
 	originalMsg, _ := r.ReadString('\n')
 
 	msg := fmt.Sprintf("%s: %s", t, originalMsg)
