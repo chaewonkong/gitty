@@ -3,10 +3,14 @@
 
 Gitty is a CLI tool built with Go, helps you to format commit message according to [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
 
+![ezgif com-video-to-gif-converter (1)](https://github.com/chaewonkong/gitty/assets/33085082/f226403a-4753-423a-8240-b42b66911230)
+
+
 ```text
 // Message format
 <type>[optional scope]: <description>
 ```
+
 
 ### Select Options
 ```text
