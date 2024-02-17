@@ -22,8 +22,16 @@ Gitty is a CLI tool built with Go, helps you to format commit message according 
 ```
 
 ## Installation
+If you are using MacOS, you can install it with brew.
+
 ```shell
- go install github.com/chaewonkong/gitty@latest
+brew tap chaewonkong/homebrew-gitty
+brew install gitty
+```
+
+Or if you are familiar to Go, just run the following
+```shell
+ go install github.com/chaewonkong/gitty@v1.0.5
 ```
 
 
