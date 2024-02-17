@@ -11,6 +11,11 @@ ref:
 
 build:
 	@GOOS=linux GOARCH=amd64 go build -o build/gitty-intel
-	@GOARCH=arm64 go build -o build/gitty-darwin
-	@GOOS=windows GOARCH=amd64 go build -o build/gitty-win
+	@GOARCH=arm64 go build -o build/gitty-arm
+	@GOOS=windows GOARCH=amd64 go build -o build/gitty-win.exe
 .PHONY: build
+
+comp:
+	@tar -czvf bin/gitty-macos-intel.tar.gz build/gitty-intel
+	@tar -czvf bin/gitty-macos-arm.tar.gz build/gitty-arm
+	@tar -czvf bin/gitty-windows.tar.gz build/gitty-win.exe
