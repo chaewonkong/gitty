@@ -1,2 +1,4 @@
 vendor
 go_build_gitty.exe
+comp
+dist
